@@ -70,3 +70,9 @@ body {
 .input-area button:hover {
   background: #e63946;
 }
+#typing {
+  color: gray;
+  font-style: italic;
+  text-align: center;
+  display: none;
+}

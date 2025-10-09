@@ -9,9 +9,17 @@
   <body>
     <div class="chat-container">
       <div class="chat-header">My Chatbot</div>
-      <div class="chat-box" id="chatBox"></div>
+      <div class="chat-box" id="chatBox">
+        <ul id="list"></ul>
+      </div>
+      <div id="typing">Typing...</div>
       <div class="input-area">
-        <input type="text" id="userInput" placeholder="Type message" />
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Type message and press Enter"
+          onkeyup="sendMessage()"
+        />
         <button>Send</button>
       </div>
     </div>
