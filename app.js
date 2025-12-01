@@ -25,7 +25,7 @@ function sendMessage() {
       }, 2000);
     } else {
       setTimeout(function () {
-        list.innerHTML += "<li class='message bot'>Smjh Nhi Aaraha 😅</li>";
+        list.innerHTML += "<li class='message bot'>Smjh Nhi Aaraha </li>";
         typing.style.display = "none";
       }, 2000);
     }
